@@ -1,0 +1,14 @@
+.name {
+    width: 15%;
+    text-align: start;
+    border-radius: 5%;
+    background: bisque;
+    padding: 1%;
+}
+
+.starNamedata {
+    width: 15%;
+    text-align: start;
+    padding: 1%;
+    background:transparent;
+}
