@@ -4,7 +4,7 @@ import StarWars from './StarWars'
 
 function StarWarsList(props) {
     return (
-        <div>
+        <div className={'starWarsList'}>
            {props.starWarsList.map((starWar)=> {
                return <StarWars starWar={starWar} />
            })} 
