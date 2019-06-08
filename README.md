@@ -33,10 +33,10 @@ If u build an app with plenty of DOM interactions are likely to occur within a p
 - [ ] What does it mean to _think_ in react?
 
 We should think about the apps as we build it. i.e Think react elements as smaller pieces of UI, and build out those small pieces of UI (we call components.)
-this 5 steps are basic and we should to think:
+ these 5 steps are basic and we should to think:
      Step 1: Break The UI Into A Component Hierarchy
      Step 2: Build A Static Version in React
-     Step 3:Identify The Minimal (but complete) Representation Of UI State
+     Step 3: Identify The Minimal (but complete) Representation Of UI State
      Step 4: Identify Where Your State Should Live
      Step 5: Add Inverse Data Flow
 
