@@ -26,11 +26,28 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React  is a library for building composable UI. It encourages the creation of reusable UI components .  It called react since the user clicks around and changes the app's data, the view should “react” or change with those user events.
+If u build an app with plenty of DOM interactions are likely to occur within a page (Lot of click events, hover events, posting, commenting etc), you need a mechanism to improve reloading of data, rapid state changes and user interaction. This is the main reason that engineers at Facebook built React.JS. 
+
+
 - [ ] What does it mean to _think_ in react?
+
+We should think about the apps as we build it. i.e Think react elements as smaller pieces of UI, and build out those small pieces of UI (we call components.)
+ these 5 steps are basic and we should to think:
+     Step 1: Break The UI Into A Component Hierarchy
+     Step 2: Build A Static Version in React
+     Step 3: Identify The Minimal (but complete) Representation Of UI State
+     Step 4: Identify Where Your State Should Live
+     Step 5: Add Inverse Data Flow
+
 
 - [ ] Describe state.
 
+state is an object that represents the parts of the app that can change. We can have state when we build class componets. And this object(state) holds our changeable data. It is the heart of our app.
+
 - [ ] Describe props.
+
+Props are object that used to transport data from the mother components to the child. Props are immutable and we can call them the blood of our app. 
 
 ## Project Set Up
 

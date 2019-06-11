@@ -1,0 +1,35 @@
+.starWarsList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 2%;
+}
+
+
+.starWars {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 2%;
+}
+
+.starWars:hover {
+    background: rgb(199, 185, 169);
+    border-radius: 5%;
+}
+
+.name {
+    width: 80%;
+    text-align: start;
+    color: rgb(177, 97, 6);
+    padding: 1%;
+    margin: 2%;
+}
+
+
+.starNamedata {
+    width: 50%;
+    text-align: start;
+    padding: 1%;
+    background:transparent;
+}
